@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 450px;
+    background-color: bisque;
+    background-image: url("341H.jpg");
+    background-size: cover;
+}
+.logo{
+    background-color: #999;
+    width: 50px;
+    height: 50px;
+}
+nav{
+    float: right;
+    margin: -40px 30px 0 0;
+}
+nav a{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.7);
+    text-decoration: none;
+    font-style: bold;
+}
+
+nav a:hover{
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 100px;
+    
+}
+span{
+    padding: 0.2em 0.5em;
+    border: white solid 10px;
+    display: inline-block
+}
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: white;
+    font-weight: 800;
+    margin-top: 10px;
+}
+section h3{
+    color: rgb(112, 70, 47);
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.img-stuff{
+    max-width: 880px;
+    display: flex;
+    background-color: white;
+    margin-left: 100px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon-web img{
+    width: 160px;
+    height: 160px;
+    margin-left:-40px;
+    order: 3;
+}
+.box svg{
+    width:140px;
+    height: 120px;
+    border-radius: 30px;
+}
+.essay{
+    max-width: 650px;
+    padding: 0 15px;
+    margin: 50px auto ;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 653px){
+    .img-stuff{
+        display:block;
+        text-align: center;
+        
+}
+    .box{
+       display: inline-block;
+        
+    
+    }
+    .icon-web{
+        display:block;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: auto;
+        padding: 20px;
+    }
+    section h3{
+        font-size: 30px;
+    }
+    
+    section h3:hover{
+        color: rgb(165, 114, 84);
+        cursor: pointer;
+    }
+    
+
+.essay{
+    max-width: 650px;
+    padding: 0 15px;
+    margin: 50px auto ;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
